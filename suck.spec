@@ -8,7 +8,6 @@ Version: %{version}
 Release: %{release}
 Source: %{name}-%{version}.tar.bz2
 URL: http://home.comcast.net/~bobyetman/index.html
-BuildRoot: %{_tmppath}/%{name}-buildroot
 License: Public Domain
 Group: Networking/News
 
