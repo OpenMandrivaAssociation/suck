@@ -1,6 +1,6 @@
 %define	name	suck
 %define	version	4.3.2
-%define	release	%mkrel 10
+%define release	11
 
 Summary:	Download news from remote NNTP server
 Name:		%{name}
