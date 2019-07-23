@@ -5,7 +5,7 @@
 Summary:	Download news from remote NNTP server
 Name:		%{name}
 Version:	%{version}
-Release:	%{release}
+Release:	1
 Source:		%{name}-%{version}.tar.bz2
 URL:		http://home.comcast.net/~bobyetman/index.html
 BuildRoot:	%{_tmppath}/%{name}-buildroot
