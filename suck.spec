@@ -18,8 +18,8 @@ with most standard NNTP servers, including INN, CNEWS, DNEWS, and typhoon.
 %setup -q
 
 export CFLAGS="$RPM_OPT_FLAGS -I/usr/include/db1"
-
-#configure --bindir=$RPM_BUILD_ROOT%{_bindir} --mandir=$RPM_BUILD_ROOT%{_mandir}
+autoreconf -fi
+%configure --bindir=$RPM_BUILD_ROOT%{_bindir} --mandir=$RPM_BUILD_ROOT%{_mandir}
 
 %build
 make
