@@ -1,10 +1,10 @@
 
 Summary:	Download news from remote NNTP server
 Name:		suck
-Version:	4.3.4
+Version:	4.3.5
 Release:	1
 Source:		https://github.com/lazarus-pkgs/suck/archive/refs/tags/%{version}/%{name}-%{version}.tar.gz
-URL:		http://home.comcast.net/~bobyetman/index.html
+URL:		https://home.comcast.net/~bobyetman/index.html
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 License:	Public Domain
 Group:		Networking/News
