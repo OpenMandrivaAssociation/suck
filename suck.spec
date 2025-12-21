@@ -9,6 +9,11 @@ BuildRoot:	%{_tmppath}/%{name}-buildroot
 License:	Public Domain
 Group:		Networking/News
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 %description
 This package contains software for copying news from an NNTP server to your
 local machine, and copying replies back up to an NNTP server.  It works
